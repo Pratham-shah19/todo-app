@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0078d411;
+    background-color: #d5d5d53b;
     border-radius: 20px;
 
 }
@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: #0078d411;
+    background-color: #d5d5d53b;
 }
 .profile_date p{
     font-weight: 300;
@@ -37,7 +37,7 @@
 
 }
 .profile_rules{
-    background-color: #0078d411;
+    background-color: #d5d5d53b;
     border-radius: 20px;
     padding: 0.7rem;
 }

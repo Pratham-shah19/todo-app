@@ -41,12 +41,12 @@ img{
     margin-bottom: 1rem;
 }
 .add_weekly input{
-    background-color: #0078d41f;
+    background-color: #d5d5d5a8;
     border-radius: 20px;
 
     border: none;
     padding: 0.5rem;
-    width: fit-content;
+    width: 100%;
 }
 .add_weekly input:focus{
     outline: none;
@@ -55,4 +55,9 @@ img{
     color: #0078d4;
     font-weight: lighter;
     font-size: large;
+}
+.add_weekly button{
+    margin-left: auto;
+    padding: 0;
+    
 }
