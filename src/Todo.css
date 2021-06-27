@@ -1,0 +1,17 @@
+.todo{
+    display: flex;
+    background-color: #0078d411;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+.todo_list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MuiSvgIcon-root{
+    margin-left: auto;
+}

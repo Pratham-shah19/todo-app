@@ -1,0 +1,58 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #d5d5d53b;
+    padding: 1rem;
+    align-items: left;
+}
+
+img{
+    object-fit: cover;
+    height: 30px;
+}
+.sidebar_header{
+    display: flex;
+    align-items: center;
+}
+.sidebar_calendar{
+    margin-top: auto;
+}
+.react-calendar{
+    width: 350px;
+}
+.react-calendar__viewContainer{
+    background-color: #0078d46e;
+}
+.sidebar_body{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    
+}
+.week_todos{
+    overflow: auto;
+    margin-top: 0;
+    padding: 0;
+}
+.add_weekly{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.add_weekly input{
+    background-color: #0078d41f;
+    border-radius: 20px;
+
+    border: none;
+    padding: 0.5rem;
+    width: fit-content;
+}
+.add_weekly input:focus{
+    outline: none;
+}
+.sidebar_body p{
+    color: #0078d4;
+    font-weight: lighter;
+    font-size: large;
+}
